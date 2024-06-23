@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 const isProd = process.env.NODE_ENV === 'production';
 export default defineUserConfig({
-	base: isProd ? '/newNotes/' : '/',
+	base: isProd ? '/blog/' : '/',
 
 	lang: 'zh-CN',
 	title: 'ZY 学习笔记',
